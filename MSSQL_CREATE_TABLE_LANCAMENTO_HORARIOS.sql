@@ -6,5 +6,6 @@ CREATE TABLE LANCAMENTO_HORARIOS (
   NumeroEvidencia int,
   ClienteLancamento VARCHAR(100),
   ObservacaoLancamento VARCHAR(200),
-  HorasLancamento DATETIME
+  HorasLancamento DATETIME,
+  nomeDesenvolvedor VARCHAR(200)
 );
