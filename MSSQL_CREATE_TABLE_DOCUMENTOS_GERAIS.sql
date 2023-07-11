@@ -5,5 +5,6 @@ CREATE TABLE DOCUMENTOS_GERAIS (
   DescricaoDocumento VARCHAR(1000),
   DataInclusao DATETIME,
   Arquivos VARBINARY(MAX),
-  TipoDocumento VARCHAR(100)
+  TipoDocumento VARCHAR(100),
+  ArquivoSalvo VARBINARY(MAX)
 );
