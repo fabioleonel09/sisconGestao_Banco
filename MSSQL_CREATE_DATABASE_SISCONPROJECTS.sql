@@ -1,2 +1,8 @@
 --script de criação do banco de dados do sistema SISCON
-CREATE DATABASE SISCONPROJECTS;
+IF NOT EXISTS (SELECT 1 FROM sys.databases WHERE name = 'SISCONPROJECTS')
+
+BEGIN
+	CREATE DATABASE SISCONPROJECTS;
+END
+	
+GO
